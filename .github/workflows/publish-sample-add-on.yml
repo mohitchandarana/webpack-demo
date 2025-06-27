@@ -22,7 +22,7 @@ concurrency:
 
 jobs:
   build:
-    uses: ./.github/workflows/build-samples.yml
+    uses: ./.github/workflows/build-sample.yml
   deploy:
     runs-on: ubuntu-latest
     needs: build
