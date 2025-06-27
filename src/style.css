@@ -1,0 +1,13 @@
+.hello {
+  color: black;
+  font-family: "Bitcount Grid Double", system-ui;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+  font-variation-settings:
+    "slnt" 0,
+    "CRSV" 1,
+    "ELSH" 65.3,
+    "ELXP" 0;
+  font-size: 40px;
+}
