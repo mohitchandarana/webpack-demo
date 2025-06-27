@@ -3,16 +3,16 @@ const path = require('path');
 
  module.exports = {
    entry: {
-     app: './src/index.js',
+     app: './src/main.js',
    },
    plugins: [
      new HtmlWebpackPlugin({
-       title: 'Production',
+       title: 'Development',
      }),
    ],
    output: {
      filename: '[name].bundle.js',
      path: path.resolve(__dirname, 'dist'),
-     clean: true,
+     library: "helloWorld"
    },
  };
